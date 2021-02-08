@@ -1,2 +1,2 @@
-# GD assignment2
+# My Space
  Assignment 2 WWW
