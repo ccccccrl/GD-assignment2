@@ -1,0 +1,121 @@
+
+h1{
+    color:rgb(255, 255, 255)
+}
+h1{
+    text-align: center;
+}
+
+h4{
+    color:rgb(255, 255, 255)
+}
+
+#wordart img{
+	width: 900px;
+    height: 400px;
+	margin-top: -11%;
+	margin-left: 20%;
+}
+
+a:link, a:visited {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1%;
+  }
+
+#title{
+    line-height: 20px;
+    margin-top: -10%;
+    color:black;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#title h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#intro{
+    position:fixed;left:1%;
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 40%;
+}
+
+#intro h4{
+    margin-top: -3%;
+    text-align: justify;
+    font-style: normal;
+}
+
+#intro img{
+	width: 270px;
+    height: 150px;
+	margin-top: -10%;
+	margin-left: -5%;
+}
+
+
+#statement{
+    position:fixed;left:1%;
+    margin-left: 5%;
+    margin-top: 13%;
+    width: 40%;
+}
+
+#statement h4{
+    margin-top: -4%;
+    text-align: justify;
+    font-style: normal;
+}
+
+#statement img{
+	width: 300px;
+    height: 180px;
+	margin-top: -2%;
+	margin-left: -5%;
+}
+
+
+#photo img{
+	width: 250px;
+    height: 120px;
+	margin-top: -2%;
+	margin-left: 52%;
+}
+
+
+#img{
+    margin-left: 54%;
+	margin-top: 0%;
+}
+
+#img2{
+    margin-top: -21%;
+    margin-left: 73%;
+}
+
+#audio{
+   position:absolute;
+   top:77%;
+   left:54%;
+}
+ 
+
+body{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute; left:0; right: 0; 
+}
+
+#canvas{
+	z-index: inherit;
+	margin-left: 10%;
+	margin-top: -45%;
+}

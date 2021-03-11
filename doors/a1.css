@@ -1,0 +1,145 @@
+a:link, a:visited {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1%;
+  }
+
+
+#title h4{
+    font-size: 30px;
+    line-height: 20px;
+    margin-left: 3%;
+    margin-top: -2%;
+    color:white;
+    text-align:left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#title img{
+    width: 300px;
+    height: 150px;
+    margin-top: -3%;
+}
+
+
+#intro{
+    left:1%;
+    margin-left: 1%;
+    margin-top: -0.5%;
+    width: 40%;
+	color: #F0F8FF;
+	border-style: dotted;
+}
+
+
+#intro h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 95%;
+    color:rgb(255, 255, 255);
+    margin-left: 3%;
+}
+
+#door img{
+	filter: drop-shadow(20px 100px 29px rgba(255, 255, 255, 0.4));
+	color: #000000;
+}
+
+
+#img{
+	position:absolute;
+    margin-left: 50%;
+	top: 23%;
+	border-style: outset;
+	
+}
+#preloader {
+    position: absolute;
+    top: 40%;
+	
+    left: 5rem;
+    width: 100%;
+    height: 100%;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #c5c8db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #83867d;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #000000;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+body{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute; left:0; right: 0; 
+}
+
+#canvas{
+	z-index: inherit;
+	width: 100%;
+	margin-top: -200%;
+}
